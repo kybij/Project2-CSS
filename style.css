@@ -18,6 +18,16 @@ body {
   
 }
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 10px 0;
+  background: rgba(255, 255,255, 0.6);
+  backdrop-filter: blur(2px);  
+  border-radius: 30px;          
+}
+
 a {
   text-decoration: none;
   color: rgb(147, 6, 6);
